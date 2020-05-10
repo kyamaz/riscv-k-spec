@@ -1,0 +1,48 @@
+= RISC-V "K" Quantum Extension
+Version 0.0.1-draft-20200510
+:doctype: article
+:encoding: utf-8
+:lang: en
+:toc: left
+:numbered:
+:stem: latexmath
+:le: &#8804;
+:ge: &#8805;
+:ne: &#8800;
+:inf: &#8734;
+
+Contributors include: Kiyohito Yamazaki.
+
+== Introduction
+
+This document describes the draft of the RISC-V base quantum extension.
+The document describes all the individual features of the base quantum
+extension.
+
+NOTE: This is a draft of a stable proposal for the quantum
+specification to be used for implementation and evaluation.  Once the
+draft label is removed, version 0.8 is intended to be stable enough to
+begin developing toolchains, functional simulators, and initial
+implementations, though will continue to evolve with minor changes and
+updates.
+
+The term _base_ _quantum_ _extension_ is used informally to describe
+the standard set of quantum ISA components.  This draft spec is
+intended to capture how a certain quantum function will be implemented
+as quantum instructions, but to not yet determine what set of quantum
+instructions are mandatory for a given platform.
+
+NOTE: Each actual platform profile will formally specify the mandatory
+components of any quantum extension adopted by that platform.  The base
+quantum extension given the single letter name "K" will be that
+intended for use in standard server/application-processor platform
+profiles.  Other platforms, including embedded platforms, may choose
+to implement subsets of these extensions.  The exact set of mandatory
+supported instructions for an implementation to be compliant with a
+given profile is subject to change until each profile spec is
+ratified.
+
+The base quantum extension is designed to act as a base for additional
+quantum extensions in various domains, including quantum computing.
+
+

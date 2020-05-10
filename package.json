@@ -1,0 +1,23 @@
+{
+  "name": "riscv-k-spec",
+  "version": "0.1.0",
+  "description": "RISC-V K quantum extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello RISC-V\"",
+    "build": "datasheet -i k-spec.adoc -o public/riscv-k-spec.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openql-org/riscv-k-spec.git"
+  },
+  "author": "",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/openql-org/riscv-k-spec/issues"
+  },
+  "homepage": "https://github.com/riscv/riscv-v-spec#readme",
+  "devDependencies": {
+    "datasheet": "^0.3.1"
+  }
+}
